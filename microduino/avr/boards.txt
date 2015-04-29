@@ -2,9 +2,11 @@
 
 ################################################################################
 328p16m.name= Microduino Core (Atmega328P@16M,5V)
+328p16m.upload.tool=avrdude
 328p16m.upload.protocol=arduino
 328p16m.upload.maximum_size=32256
 328p16m.upload.speed=115200
+328p16m.bootloader.tool=arduino:avrdude
 328p16m.bootloader.low_fuses=0xFF
 328p16m.bootloader.high_fuses=0xDE
 328p16m.bootloader.extended_fuses=0x05
@@ -20,9 +22,11 @@
 
 ################################################################################
 328p8m.name= Microduino Core (Atmega328P@8M,3.3V)
+328p8m.upload.tool=avrdude
 328p8m.upload.protocol=arduino
 328p8m.upload.maximum_size=32256
 328p8m.upload.speed=57600
+328p8m.bootloader.tool=arduino:avrdude
 328p8m.bootloader.low_fuses=0xFF
 328p8m.bootloader.high_fuses=0xDE
 328p8m.bootloader.extended_fuses=0x05
@@ -38,9 +42,11 @@
 
 ################################################################################
 168pa16m.name= Microduino Core (Atmega168PA@16M,5V)
+168pa16m.upload.tool=avrdude
 168pa16m.upload.protocol=arduino
 168pa16m.upload.maximum_size=15872
 168pa16m.upload.speed=115200
+168pa16m.bootloader.tool=arduino:avrdude
 168pa16m.bootloader.low_fuses=0xFF
 168pa16m.bootloader.high_fuses=0xDD
 168pa16m.bootloader.extended_fuses=0x04
@@ -56,9 +62,11 @@
 
 ################################################################################
 168pa8m.name= Microduino Core (Atmega168PA@8M,3.3V)
+168pa8m.upload.tool=avrdude
 168pa8m.upload.protocol=arduino
 168pa8m.upload.maximum_size=15872
 168pa8m.upload.speed=57600
+168pa8m.bootloader.tool=arduino:avrdude
 168pa8m.bootloader.low_fuses=0xE2
 168pa8m.bootloader.high_fuses=0xDD
 168pa8m.bootloader.extended_fuses=0x04
@@ -74,9 +82,11 @@
 
 ################################################################################
 644pa16m.name= Microduino Core+ (Atmega644PA@16M,5V)
+644pa16m.upload.tool=avrdude
 644pa16m.upload.protocol=arduino
 644pa16m.upload.maximum_size=64512
 644pa16m.upload.speed=115200
+644pa16m.bootloader.tool=arduino:avrdude
 644pa16m.bootloader.low_fuses=0xFF
 644pa16m.bootloader.high_fuses=0xDE
 644pa16m.bootloader.extended_fuses=0xFD
@@ -92,9 +102,11 @@
 
 ################################################################################
 644pa8m.name= Microduino Core+ (Atmega644PA@8M,3.3V)
+644pa8m.upload.tool=avrdude
 644pa8m.upload.protocol=arduino
 644pa8m.upload.maximum_size=64512
 644pa8m.upload.speed=57600
+644pa8m.bootloader.tool=arduino:avrdude
 644pa8m.bootloader.low_fuses=0xFF
 644pa8m.bootloader.high_fuses=0xDE
 644pa8m.bootloader.extended_fuses=0xFD
@@ -110,9 +122,11 @@
 
 ################################################################################
 1284p16m.name= Microduino-Core+ (ATmega1284P@16M,5V)
+1284p16m.upload.tool=avrdude
 1284p16m.upload.protocol=arduino
 1284p16m.upload.maximum_size=130048
 1284p16m.upload.speed=115200
+1284p16m.bootloader.tool=arduino:avrdude
 1284p16m.bootloader.low_fuses=0xFF
 1284p16m.bootloader.high_fuses=0xDE
 1284p16m.bootloader.extended_fuses=0xFD
@@ -128,9 +142,11 @@
 
 ################################################################################
 1284p8m.name= Microduino-Core+ (ATmega1284P@8M,3.3V)
+1284p8m.upload.tool=avrdude
 1284p8m.upload.protocol=arduino
 1284p8m.upload.maximum_size=130048
 1284p8m.upload.speed=57600
+1284p8m.bootloader.tool=arduino:avrdude
 1284p8m.bootloader.low_fuses=0xFF
 1284p8m.bootloader.high_fuses=0xDE
 1284p8m.bootloader.extended_fuses=0xFE
@@ -146,9 +162,11 @@
 
 ################################################################################
 32u416m.name=Microduino-Core USB (ATmega32U4@16M,5V)
+32u416m.upload.tool=avrdude
 32u416m.upload.protocol=avr109
 32u416m.upload.maximum_size=28860
 32u416m.upload.speed=57600
+32u416m.bootloader.tool=arduino:avrdude
 32u416m.upload.disable_flushing=true
 32u416m.bootloader.low_fuses=0xff
 32u416m.bootloader.high_fuses=0xd8
@@ -170,9 +188,11 @@
 
 ################################################################################
 zigduino_r2.name=Microduino-Core RF
+zigduino_r2.upload.tool=avrdude
 zigduino_r2.upload.protocol=arduino
 zigduino_r2.upload.maximum_size=126976
 zigduino_r2.upload.speed=57600
+zigduino_r2.bootloader.tool=arduino:avrdude
 zigduino_r2.bootloader.low_fuses=0xFF
 zigduino_r2.bootloader.high_fuses=0xDA
 zigduino_r2.bootloader.extended_fuses=0xF5
