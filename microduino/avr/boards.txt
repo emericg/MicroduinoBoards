@@ -160,10 +160,13 @@
 32u416m.build.board=AVR_32U416M
 32u416m.build.mcu=atmega32u4
 32u416m.build.f_cpu=16000000L
-32u416m.build.vid=0x2341
-32u416m.build.pid=0x8036
 32u416m.build.core=arduino
 32u416m.build.variant=32u4
+32u416m.build.vid=0x2341
+32u416m.build.pid=0x8036
+32u416m.build.usb_product="Leonardo (CDC ACM, HID)"
+32u416m.build.usb_manufacturer="Arduino SA"
+32u416m.build.extra_flags={build.usb_flags}
 
 ################################################################################
 zigduino_r2.name=Microduino-Core RF
